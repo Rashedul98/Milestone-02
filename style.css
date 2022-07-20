@@ -1,10 +1,13 @@
+/* Importing fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
+/* importing font in Body */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0%;
 }
 
+/* Main tag alignment */
 main {
     display: flex;
     flex-direction: column;
@@ -13,7 +16,7 @@ main {
 
 }
 
-
+/* header styling */
 .top {
 
     display: flex;
@@ -53,12 +56,16 @@ main {
     width: 100%;
 }
 
+/*  Main section styling */
+
 
 .top-blogs {
     display: grid;
     grid-template-columns: 1fr repeat(3, 1fr);
     gap: 24px;
 }
+
+/* Side Navigation */
 
 .aside {
 
@@ -102,7 +109,7 @@ main {
     background-color: tomato;
 }
 
-
+/* Blog styling */
 
 .blogs2 {
     width: 312px;
@@ -164,6 +171,8 @@ main {
 
 }
 
+/* Footer part styling */
+
 footer {
 
     height: 480px;
@@ -203,6 +212,9 @@ footer hr {
     color: aliceblue;
     font-size: 2vh;
 }
+
+/* Media queries for Responsive design */
+
 
 @media screen and (max-width: 576px) {
 
@@ -304,8 +316,10 @@ footer hr {
     }
 
     .banner-img img {
+
         width: 100%;
         padding-left: 10px;
+
     }
 
     .res2 {
